@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-width: 320px;
+	min-height: 100vh;
+	color: #23332d;
+	background-color: #F3F6FA;
+	font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+button {
+	cursor: pointer;
+}

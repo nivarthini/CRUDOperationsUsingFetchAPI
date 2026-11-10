@@ -1,0 +1,141 @@
+.content {
+	width: min(100%, 1440px);
+	margin: 0 auto;
+	padding: 36px 28px 48px;
+}
+
+.content h2 {
+	margin: 0 0 22px;
+	color: #0073ff;
+	font-size: 30px;
+	font-weight: 700;
+  text-align: center;
+}
+
+.loading-message,
+.error-message {
+	margin: 0 0 18px;
+	padding: 12px 16px;
+	border-radius: 6px;
+	text-align: center;
+}
+
+.loading-message {
+	color: #173B67;
+	background: #E8F1FB;
+}
+
+.error-message {
+	color: #8F2727;
+	border: 1px solid #E8B4B4;
+	background: #FFF0F0;
+}
+
+.table {
+	width: 100%;
+	overflow-x: auto;
+	border: 1px solid #DCE5EF;
+	background: #FFFFFF;
+	box-shadow: 0 12px 28px rgb(23 59 103 / 10%);
+}
+
+.user-table {
+	width: 100%;
+	min-width: 1080px;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.user-table th,
+.user-table td {
+	padding: 12px 10px;
+	border-bottom: 2px solid #DCE5EF;
+}
+
+.user-table th {
+	color: #FFFFFF;
+	background: #173B67;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.user-table td {
+	font-size: 15px;
+}
+
+.user-table input {
+	width: 100%;
+	min-width: 112px;
+	height: 38px;
+	padding: 8px 9px;
+	color: #334155;
+	border: 1px solid  #a3a7ac;
+	border-radius: 4px;
+	background: #FFFFFF;
+}
+
+.user-table button {
+	min-height: 36px;
+	padding: 8px 12px;
+	border: 0;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.user-table button:hover {
+	transform: translateY(-1px);
+}
+
+.edit-button {
+	background: #288b7b;
+}
+
+.edit-button:hover {
+	background: #11715F;
+}
+
+.save-button{
+  background-color: #0073ff;
+}
+
+.save-button:hover{
+  background-color: #0567de;
+}
+
+.delete-button {
+	background: #DC5555;
+}
+
+.delete-button:hover {
+	background: #B93F3F;
+}
+
+.cancel-button {
+	margin-left: 6px;
+	background: #64748B;
+}
+
+.cancel-button:hover {
+	background: #475569;
+}
+
+.form-actions {
+	white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+	.content {
+		padding: 26px 14px 36px;
+	}
+
+	.content h2 {
+		margin-bottom: 16px;
+		font-size: 26px;
+	}
+
+	.table {
+		border-radius: 4px;
+	}
+}
